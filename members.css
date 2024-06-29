@@ -1,0 +1,46 @@
+/* members.css */
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.member {
+  width: 1000px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left; /* テキストを左揃えに変更 */
+  display: flex; /* flexboxレイアウトを使用 */
+  align-items: center; /* 垂直方向の中央揃え */
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px; /* 画像とテキストの間に余白を追加 */
+}
+
+.member-info {
+  flex: 1; /* 残りの領域を使用 */
+}
+
+.member h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.member p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.A {
+     text-align: left; 
+    font-size: 30px;
+}
