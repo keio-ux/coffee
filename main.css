@@ -1,0 +1,33 @@
+/* main.css */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-image img {
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px;
+}
+
+#news {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+}
